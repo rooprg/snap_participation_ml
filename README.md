@@ -43,7 +43,7 @@
 (Provide clear instructions on how to interact with the visualizations, such as how to run the code or access the visualizations)
 
 
-**(8) References:**
+**(8) CITATIONS:**
 
 
 (Include references to the data sources used, any external libraries or tools utilized, and any other resources that contributed to the project)
