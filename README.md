@@ -71,17 +71,20 @@ A determination was made about collecting which variables to use from the retrie
 
 
      (i)    Plot histograms for continuous variables
-            ![Histograms](Output/1_histograms.png)
+            ![Histograms](/Output/1_histograms.png)
             
 
      (ii)   Correlation matrix  - Plot heatmap
-            ![Correlation matrix](Output/2_correlation_matrix.png)
+            ![Correlation matrix](/Output/2_correlation_matrix.png)
+
 
      (iii)  Boxplot for household income vs. SNAP participation
-            ![Boxplot](Output/3_boxplot.png)
+            ![Boxplot](/Output/3_boxplot.png)
+
 
      (iv)   Pair plot
-            ![Pair plot](Output/4_pair_plot.png)
+            ![Pair plot](/Output/4_pair_plot.png)
+
 
 (b) MACHINE LEARNING MODELING
 
@@ -107,13 +110,13 @@ A determination was made about collecting which variables to use from the retrie
 
 
      (i)    Bar and line charts to visualize Count of household, avg. of Snap distance and avg. of income vs household size
-
+            ![Bar and line charts](/Output/5_bar_line.png)
 
      (ii)   Scatter plot of the distribution of FAFH Paid and FAH Paid
-
+            ![Scatter plot](/Output/6_scatterplot.png)
 
      (iii)  Gantt charts to visualize Avg. Income vs. Expenses
-
+            ![Gantt](/Output/7_gantt.png)
 
 
 **(5) Results and Analysis:**
@@ -211,7 +214,28 @@ The opportunity for bias exists for datasets like these, impacting disproportion
 **(7) Instructions for Interacting with the Project:**
 
 
-(Provide clear instructions on how to interact with the visualizations, such as how to run the code or access the visualizations)
+(a) The Proposal is located in the Proposal folder
+
+
+(b) The datasets are located in the Data folder
+
+
+(c) The visualizations are located in the Output folder
+
+
+(d) The slides are located in the Presentation folder
+
+
+(e) The following are located in the main folder:
+
+
+     (i)   Code is present in the file titled "data_cleaning_eda_model_build_eval.ipynb"
+
+
+     (ii)  SQL database is present in the file titled "snap.db"
+
+
+     (iii) Keras models are filed as "snap_participation.keras" and "snap_participation_2.keras"
 
 
 **(8) CITATIONS:**
