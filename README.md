@@ -75,13 +75,13 @@ A determination was made about collecting which variables to use from the retrie
             
 
      (ii)   Correlation matrix  - Plot heatmap
-
+            ![Correlation matrix](Output/2_correlation_matrix.png)
 
      (iii)  Boxplot for household income vs. SNAP participation
-
+            ![Boxplot](Output/3_boxplot.png)
 
      (iv)   Pair plot
-
+            ![Pair plot](Output/4_pair_plot.png)
 
 (b) MACHINE LEARNING MODELING
 
