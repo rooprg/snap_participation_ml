@@ -146,7 +146,7 @@ The exploratory analysis highlights income, housing costs, and household size as
          Running model by excluding two features [fah_paid and fafh_paid] to try and improve model performance: The model also predicts with an average accuracy of 78% and struggles to accurately predict "Not Participating" instances
 
 
-         **CONCLUSION:** No improvement to model accuracy by removing features, namely fah_paid and fafh_paid
+         CONCLUSION: No improvement to model accuracy by removing features, namely fah_paid and fafh_paid
 
          
      (ii) Random Forest Analyst result with the breakdown of the key metrics of Testing Classification Report:
@@ -204,7 +204,7 @@ The exploratory analysis highlights income, housing costs, and household size as
           - Accuracy: The accuracy improved from 78.20% to 80.24%, a modest but notable improvement by switching to the tanh activation function.
 
 
-          **CONCLUSION:** The tanh activation function seems to perform better in this case than ReLU. This may be because tanh outputs values between -1 and 1, which can help in dealing with negative input values, especially in the earlier layers of the network. It’s 
+          CONCLUSION: The tanh activation function seems to perform better in this case than ReLU. This may be because tanh outputs values between -1 and 1, which can help in dealing with negative input values, especially in the earlier layers of the network. It’s 
           particularly useful when the data is centered around zero.
 
 
@@ -221,16 +221,16 @@ The opportunity for bias exists for datasets like these, impacting disproportion
 **(7) Instructions for Interacting with the Project:**
 
 
-(a) The Proposal is located in the Proposal folder
+(a) The project's Proposal is located in the **Proposal** folder
 
 
-(b) The datasets are located in the Data folder
+(b) The datasets are located in the **Data** folder
 
 
-(c) The visualizations are located in the Output folder
+(c) The visualizations are located in the **Output** folder
 
 
-(d) The slides are located in the Presentation folder
+(d) The slides are located in the **Presentation** folder
 
 
 (e) The following are located in the main folder:
@@ -248,4 +248,4 @@ The opportunity for bias exists for datasets like these, impacting disproportion
 **(8) CITATIONS:**
 
 
-Questions were asked of the Xpert Learning Assistant, such as code syntax questions, resolution of errors (troubleshooting), etc. 
+Questions were asked of the Xpert Learning Assistant, such as code syntax questions, resolution of errors (troubleshooting), learning, etc. 
