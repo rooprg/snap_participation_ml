@@ -40,25 +40,25 @@ A determination was made about collecting which variables to use from the retrie
 
 (d) Generating clean snap_data .CSV file located in Data Folder with:
 
-     (i) hhnum: 6-digit unique identifier for each household
+     (i)    hhnum: 6-digit unique identifier for each household
      
-     (ii) snapnowhh: Anyone in household is receiving SNAP benefits (Y/N)
+     (ii)   snapnowhh: Anyone in household is receiving SNAP benefits (Y/N)
      
-     (iii) inchhavg_r: Household average (monthly) income as sum of average imputed income per member (top-coded) 
+     (iii)  inchhavg_r: Household average (monthly) income as sum of average imputed income per member (top-coded) 
      
-     (iv) hhsize: Number of people at residence, excluding guests
+     (iv)   hhsize: Number of people at residence, excluding guests
      
-     (v) hh_expenses: sum of household expenditures, averaged by household size
+     (v)    hh_expenses: sum of household expenditures, averaged by household size
      
-     (vi) med_expenses: sum of medical costs (insurance, rx, etc), averaged by household size
+     (vi)   med_expenses: sum of medical costs (insurance, rx, etc), averaged by household size
      
-     (vii) sum_snap_dist: sum of distance to nearest SNAP-authorized establishment
+     (vii)  sum_snap_dist: sum of distance to nearest SNAP-authorized establishment
      
      (viii) fah_paid: Total amount paid for food at home, including tax
      
-     (ix) fafh_paid: Total amount paid for food away from home, including tax (and tip when FAFH)
+     (ix)   fafh_paid: Total amount paid for food away from home, including tax (and tip when FAFH)
      
-     (x) totalpaid: Total amount paid for both FAH and FAFH, including tax (and tip when FAFH)
+     (x)    totalpaid: Total amount paid for both FAH and FAFH, including tax (and tip when FAFH)
 
 
 (e) The cleaned data was converted to a SQL database.
@@ -67,7 +67,52 @@ A determination was made about collecting which variables to use from the retrie
 **(4) Data Visualization Techniques:**
 
 
-(Detail the data visualization techniques used in the project, such as bar charts, line graphs, scatter plots, etc. Explain why these techniques were chosen and how they help in understanding the data)
+(a) EXPLORATORY DATA ANALYSIS [EDA]:
+
+
+     (i)    Plot histograms for continuous variables
+            ![Histograms](Output/1_histograms.png)
+
+     (ii)   Correlation matrix  - Plot heatmap
+
+
+     (iii)  Boxplot for household income vs. SNAP participation
+
+
+     (iv)   Pair plot
+
+
+(b) MACHINE LEARNING MODELING
+
+
+     (i)    Logistic Regression was likely chosen for the SNAP Participation project because it’s well-suited for binary classification problems, offers interpretability, is computationally efficient, and provides a solid baseline to compare more complex models.
+
+
+     (ii)   Random Forest Analysis is a strong choice for this project because it can handle the complex, non-linear relationships that might exist between household characteristics (income, size, expenses, etc.) and SNAP participation. Additionally, its ability to 
+            provide insights into feature importance can help identify key drivers of SNAP participation, which is valuable for policy decisions
+
+
+     (iii)  Neural Network Testing was chosen for this project due to its ability to model complex, non-linear relationships, their scalability, and its potential for higher predictive accuracy. Additionally, the flexibility in architecture and automatic feature 
+            interaction learning makes neural networks a powerful option for modeling SNAP participation, providing a solid foundation for future improvements.
+
+
+            (1) FIRST ITERATION - 4 layers; neurons = 75; 37; 18, 1; activation = relu; and epochs = 100
+
+
+            (2) SECOND ITERATION - 4 layers; neurons = 75; 37; 18, 1; activation = tanh; and epochs = 100
+
+
+(c) TABLEAU - visualizing the project providing powerful insights into the data and trends
+
+
+     (i)    Bar and line charts to visualize Count of household, avg. of Snap distance and avg. of income vs household size
+
+
+     (ii)   Scatter plot of the distribution of FAFH Paid and FAH Paid
+
+
+     (iii)  Gantt charts to visualize Avg. Income vs. Expenses
+
 
 
 **(5) Results and Analysis:**
@@ -98,15 +143,15 @@ The exploratory analysis highlights income, housing costs, and household size as
      
                                                    precision    recall  f1-score   support
                                                  
-            Participating [labeled 1]       	     0.82         0.90      0.86       621
+            Participating [labeled 1]       	          0.82         0.90      0.86       621
           
-            Not Participating [labeled 0]      	   0.74         0.61      0.67       310
+            Not Participating [labeled 0]      	     0.74         0.61      0.67       310
 
-            accuracy                           				                    0.80       931
+            accuracy                           				             0.80       931
           
-            macro avg      			                   0.78         0.75      0.76       931
+            macro avg      			               0.78         0.75      0.76       931
           
-            weighted avg     		                   0.80         0.80      0.79       931
+            weighted avg     		                    0.80         0.80      0.79       931
 
 
            This report indicates that the model performs better in predicting "Participating" instances compared to "Not Participating," as shown by the higher precision and recall for the "Participating" class
