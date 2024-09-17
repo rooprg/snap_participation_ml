@@ -71,7 +71,8 @@ A determination was made about collecting which variables to use from the retrie
 
 
      (i)    Plot histograms for continuous variables
-            ![Histograms](/Output/1_histograms.png)
+            ![Histograms](Output/1_histograms.png)
+            
 
      (ii)   Correlation matrix  - Plot heatmap
 
