@@ -19,8 +19,11 @@ The dataset used in this project contains various features related to socio-econ
 
 
 •	faps_access_puf.csv
+
 •	faps_fafhevent_puf.csv 
+
 •	faps_fahevent_puf.csv
+
 •	faps_household_puf.csv
 
 
@@ -58,7 +61,7 @@ A determination was made about collecting which variables to use from the retrie
      (x) totalpaid: Total amount paid for both FAH and FAFH, including tax (and tip when FAFH)
 
 
-The cleaned data was converted to a SQL database.
+(e) The cleaned data was converted to a SQL database.
 
 
 **(4) Data Visualization Techniques:**
