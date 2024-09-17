@@ -71,19 +71,23 @@ A determination was made about collecting which variables to use from the retrie
 
 
      (i)    Plot histograms for continuous variables
-            ![Histograms](/Output/1_histograms.png)
+     
+![Histograms](Output/1_histograms.png)
             
 
      (ii)   Correlation matrix  - Plot heatmap
-            ![Correlation matrix](/Output/2_correlation_matrix.png)
+     
+![Correlation matrix](/Output/2_correlation_matrix.png)
 
 
      (iii)  Boxplot for household income vs. SNAP participation
-            ![Boxplot](/Output/3_boxplot.png)
+     
+![Boxplot](/Output/3_boxplot.png)
 
 
      (iv)   Pair plot
-            ![Pair plot](/Output/4_pair_plot.png)
+     
+![Pair plot](/Output/4_pair_plot.png)
 
 
 (b) MACHINE LEARNING MODELING
@@ -110,13 +114,16 @@ A determination was made about collecting which variables to use from the retrie
 
 
      (i)    Bar and line charts to visualize Count of household, avg. of Snap distance and avg. of income vs household size
-            ![Bar and line charts](/Output/5_bar_line.png)
+
+![Bar and line charts](/Output/5_bar_line.png)
 
      (ii)   Scatter plot of the distribution of FAFH Paid and FAH Paid
-            ![Scatter plot](/Output/6_scatterplot.png)
+
+![Scatter plot](/Output/6_scatterplot.png)
 
      (iii)  Gantt charts to visualize Avg. Income vs. Expenses
-            ![Gantt](/Output/7_gantt.png)
+
+![Gantt](/Output/7_gantt.png)
 
 
 **(5) Results and Analysis:**
