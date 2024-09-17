@@ -165,7 +165,8 @@ The exploratory analysis highlights income, housing costs, and household size as
             weighted avg     		                    0.80         0.80      0.79       931
 
 
-           This report indicates that the model performs better in predicting "Participating" instances compared to "Not Participating," as shown by the higher precision and recall for the "Participating" class
+           This report indicates that the model performs better in predicting "Participating" instances compared to "Not Participating," 
+           as shown by the higher precision and recall for the "Participating" class
 
  
      (iii)	Neural Network Testing:
