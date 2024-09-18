@@ -207,8 +207,23 @@ The exploratory analysis highlights income, housing costs, and household size as
 
           CONCLUSION: The tanh activation function seems to perform better in this case than ReLU. This may be because tanh outputs values between -1 and 1, which can help in dealing with negative input values, especially in the earlier layers of the network. It’s 
           particularly useful when the data is centered around zero.
+(c)  TABLEAU - DATA VISUALIZATION ANALYSIS
 
-
+     (i)     Bar and line charts to visualize Count of household, avg. of Snap distance and avg. of income vs household size: 
+	 Household Size and SNAP Access: Larger households tend to be located further from SNAP-authorized stores, which could affect their participation in SNAP. Geographic distance might create barriers to accessing food resources, especially for households that may need the most assistance due to their size.
+	 Income as a Predictor: Average income is closely tied to household size, which may be a significant factor in determining SNAP eligibility and participation. The dip in income for certain household sizes could indicate points where financial strain is higher, potentially leading to greater reliance on SNAP benefits.
+	 Household Composition and Economic Variability: The variability in income by household size (especially the dip for sizes 7 and 12) suggests that household composition (e.g., number of earners, dependents) could play a role in economic stability. Further investigation into household characteristics could provide deeper insights into SNAP participation patterns.
+  
+      (ii)   Scatter plot of the distribution of FAFH Paid and FAH Paid:
+     Food Expenditure vs Household Size: Larger households tend to spend more on FAH (food at home), while smaller households show higher variance in FAFH (food away from home) spending. This suggests that larger households might prioritize cost-effective home cooking over eating out, while smaller households may have more flexibility to spend on FAFH.
+	SNAP Participation and Spending Patterns: SNAP households do not show a dramatically different spending pattern on food (FAFH or FAH) compared to non-SNAP households. This might indicate that SNAP recipients allocate a similar proportion of their resources to food expenses as non-SNAP recipients, possibly due to the supplementation provided by SNAP benefits.
+	Household Size and SNAP Participation: The largest concentration of SNAP participants is in households of size 2 and 3, which may reflect the eligibility criteria or financial challenges faced by smaller, lower-income households. This also suggests that policies aimed at addressing food insecurity might need to focus on smaller households that are more likely to receive benefits.
+ 
+       (iii)  Gantt charts to visualize Avg. Income vs. Expenses
+      Low-Income Households (Under 6K): These households, particularly SNAP recipients, exhibit higher volatility in both household and medical expenses, suggesting more variability in managing costs, possibly due to constraints in income.
+	• Higher-Income Households (Over 10K): These households, regardless of SNAP status, show more stability in their expenses, with both household and medical costs being more predictable and lower in proportion to income.
+ 
+          
 **(6) Ethical Considerations:**
 
 
