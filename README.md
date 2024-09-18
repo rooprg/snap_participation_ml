@@ -220,8 +220,8 @@ The exploratory analysis highlights income, housing costs, and household size as
 	Household Size and SNAP Participation: The largest concentration of SNAP participants is in households of size 2 and 3, which may reflect the eligibility criteria or financial challenges faced by smaller, lower-income households. This also suggests that policies aimed at addressing food insecurity might need to focus on smaller households that are more likely to receive benefits.
  
        (iii)  Gantt charts to visualize Avg. Income vs. Expenses
-      Low-Income Households (Under 6K): These households, particularly SNAP recipients, exhibit higher volatility in both household and medical expenses, suggesting more variability in managing costs, possibly due to constraints in income.
-	• Higher-Income Households (Over 10K): These households, regardless of SNAP status, show more stability in their expenses, with both household and medical costs being more predictable and lower in proportion to income.
+      	Low-Income Households (Under 6K): These households, particularly SNAP recipients, exhibit higher volatility in both household and medical expenses, suggesting more variability in managing costs, possibly due to constraints in income.
+	Higher-Income Households (Over 10K): These households, regardless of SNAP status, show more stability in their expenses, with both household and medical costs being more predictable and lower in proportion to income.
  
           
 **(6) Ethical Considerations:**
