@@ -209,7 +209,7 @@ The exploratory analysis highlights income, housing costs, and household size as
           particularly useful when the data is centered around zero.
 
    
-(c)  TABLEAU - DATA VISUALIZATION ANALYSIS
+(c)  TABLEAU - DATA VISUALIZATION ANALYSIS - link for Tableau public: https://public.tableau.com/app/profile/le.nguyen1734/viz/Snap_visualization/OverallStory?publish=yes
 
 
      (i)     Bar and line charts to visualize Count of household, avg. of Snap distance and avg. of income vs household size:
