@@ -285,7 +285,9 @@ The opportunity for bias exists for datasets like these, impacting disproportion
 
      (iii) Keras models are filed as "snap_participation.keras" and "snap_participation_2.keras"
 
+     (iv) Tableau file Snap_visualization.twbx 
 
+	
 **(8) CITATIONS:**
 
 
